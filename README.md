@@ -9,11 +9,11 @@ Please fill in your information after forking this repository:
 Frontend: React, JavaScript, HTML, CSS
 
 ## Getting Started
-you can change apiKey from api.js file
-you can change id of form from api.js file inside of fetch method.
- **Install dependencies:**
+#you can change apiKey from api.js file
+#you can change id of form from api.js file inside of fetch method.
+#**Install dependencies:**
     npm install 
-**Run the application:**
+#**Run the application:**
     npm run dev
 
 ## License
