@@ -6,10 +6,15 @@ Please fill in your information after forking this repository:
 - **Name**: Gizem Celik
 
 ## Project Description
-[Add a brief description of your project here]
+Frontend: React, JavaScript, HTML, CSS
 
 ## Getting Started
-[Add instructions for setting up and running the project]
+you can change apiKey from api.js file
+you can change id of form from api.js file inside of fetch method.
+ **Install dependencies:**
+    npm install 
+**Run the application:**
+    npm run dev
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
