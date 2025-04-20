@@ -1,0 +1,60 @@
+.purchases {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .purchases h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-direction: column; /* Changed to column layout */
+    align-items:start; /* centers the items horizontally */
+    margin-top: 20px;
+  }
+  
+  .product-empty {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #f9f9f9;
+  }
+  .total-amount{
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: right;
+  }
+  
+  .check-out{
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+  }
+  .check-btn {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .check-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
